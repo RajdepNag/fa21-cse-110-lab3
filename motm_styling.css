@@ -12,7 +12,6 @@ body {
 
 h1 {
     color: black;
-    font: impact;
     size: 2px;
 }
 
@@ -35,6 +34,7 @@ fieldset {
 
 li {
     display: list-item;
+    list-style-type: disc;
 }
 nav {
     display: flex;
@@ -75,4 +75,46 @@ form {
     body {
       background-color: lightblue;
     }
+  }
+
+  .red {
+      color: rgb(223, 56, 56);
+  }
+
+  #awesome {
+      color:red;
+
+  }
+
+  *{
+    color: black;
+  }
+
+  a[href="#"] {
+      background-color: silver;
+
+  }
+  h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  ul > ol {
+      background-color: purple;
+  }
+
+  details + h2 {
+      background-color: gold;
+  }
+
+  section ~ ol {
+      background-color: green;
+  }
+
+  li li {
+    list-style-type: square;
+  }
+
+  #one.two {
+      color: red;
   }
