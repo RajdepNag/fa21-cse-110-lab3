@@ -1,8 +1,14 @@
+/*this is the external CSS file for the Minutes of the Meeting HTML from Lab2*/
+
+/*these selectors were all present on the CSS checklist on the lab documentation*/
+
+
 header {
     color: rgb(151, 85, 151);
     font: calibri;
 }
 
+/*the font is 3rd party font*/
 body {
     background-color:blanchedalmond;
     color: brown;
@@ -36,6 +42,8 @@ li {
     display: list-item;
     list-style-type: disc;
 }
+
+/*this is an example of the flexbot property*/
 nav {
     display: flex;
     flex-direction: row;
@@ -44,6 +52,7 @@ nav {
 
 }
 
+/*this is an example of a Display property*/
 span {
     display: inline;
 }
@@ -63,6 +72,7 @@ button:hover {
     color: blue;
 }
 
+/*this is an example of a pusedo-class selector*/
 a:active {
     color: red;
 }
@@ -76,29 +86,33 @@ form {
       background-color: lightblue;
     }
   }
+/*this is the list of CSS selectors on the Lab3 documentation*/
 
+/*class selector*/
   .red {
       color: rgb(223, 56, 56);
   }
-
+/*ID selector*/
   #awesome {
       color:red;
 
   }
-
+/*Universal selector*/
   *{
     color: black;
   }
-
+/*attribute selector*/
   a[href="#"] {
       background-color: silver;
 
   }
+
+/*selector list*/
   h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
   }
 
-  
+/*Combinators*/
   ul > ol {
       background-color: purple;
   }
