@@ -1,0 +1,78 @@
+header {
+    color: rgb(151, 85, 151);
+    font: calibri;
+}
+
+body {
+    background-color:blanchedalmond;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    color: black;
+    font: impact;
+    size: 2px;
+}
+
+img {
+    margin-left: 0.25in;   
+    margin-top: 0.5in;
+    margin-bottom: .25in;
+}
+
+video {
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+fieldset {
+    display: grid;
+    grid-column-end: five;
+    grid-row-end: three;
+    grid-row-start: two;
+}
+
+li {
+    display: list-item;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    flex-basis: initial;
+
+}
+
+span {
+    display: inline;
+}
+
+p {
+    padding: 1cm 1cm 1cm 1cm;
+    border-left: 25vh;
+    border-right: 25vh;
+    position: relative;
+}
+
+div {
+    position: relative;
+}
+
+button:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+form {
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
